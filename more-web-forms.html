@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea {
+        margin-top:10px;
+        height:100px;
+        width:95%;
+        border:1px solid gray;
+        border-radius:10px;
+        padding:10px;
+        }
+        input#spinner {
+            padding:5px;
+            border:1px solid gray;
+            border-radius:10px;
+            flex: 0 0 50px;
+        }
+    </style>
+</head>
+<body>
+<form>
+<h1>More Web Forms</h1>
+<form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+    <input type="number" name="spinner" id="spinner" stepvalue="50" min="100" max="10">
+    <input type="range" name="slider" id="spinner" step="10" min="100" max="10">
+    <fieldset>
+        <legend>Name:</legend>
+        <div id="name-info">
+            <label for="" >First Name:</label>
+            <input type="text" name="fname" od="fname">
+            </div>
+            <div>
+            <div id="last-name">
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname">
+            </div>
+    </fieldset>
+    <fieldset>
+        <legend> Contact Information:</legend>
+        <div id="email-address">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <legend>Phone Number:</legend>
+        <div id="phone-number">
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id=phone>
+    </fieldset>
+    <fieldset>
+        <legend> Date of Birth:</legend>
+        <div id="date-of-birth">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" value="2022-11-03" autofocus name="DOB" id="DOB">
+        </div>
+
+    </fieldset>
+    <fieldset>
+        <legend>Favorite Classes:</legend>
+        <select name="Fav-Classes" multiple id="Fav-Classes">
+        <option value=""></option>
+        <optgroup label="Computer Science">
+        <option value="CS100"> CS100-Networking</option>
+        <option value="CS222"> CSS222-Web Development</option>
+        <option value="CS227">CSS227-Java Web Development</option>
+        <option value="CS140"> CS140-Database Management</option>
+        </optgroup>
+        </select>
+        <input type="hidden" name="my-hidden-secret" value="NMC">
+    </fieldset>
+    <fieldset>
+        <legend>Hobbies:</legend>
+        <input type="text" list="hobbies" name="Hobbies">
+        <datalist> id=Hobbies>
+            <option value="hopping"></option>
+            <option value="hiking"></option>
+            <option value="gaming"></option>
+            <option value="fishing"></option>
+            <option value="boarding"></option>
+            <option value="kayaking"></option>
+            <option value="jogging"></option>
+            <option value="sleeping"></option>
+        </datalist>
+        <label for="hiking">Hiking</label>
+        <input type="radio" name="hobby" id="hiking" value="Hiking">
+        <label for="gaming">Gaming</label>
+        <input type="radio" name="gaming" id="gaming" value="Gaming">
+        <label for="jogging">Jogging</label>
+        <input type="jogging" name="Jogging" id="jogging" checked value="Jogging">
+  </fieldset>
+  <fieldset>
+    <div>
+    <legend>Possible Dinner Ideas</legend>
+    <label for="pizza hut">Pizza</label>
+    <input type="checkbox" name="pizza hut" id="pizza hut">
+    </div>
+    <div>
+    <label for="Subway">Pizza</label>
+    <input type="checkbox" checked name="Subway" id="Subway">
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Comments:</legend>
+    <div>
+    <label for="Comments">Please enter a comment</label>
+    <textarea name="Comment" id="Comments" autocomplete cols="30" rows="10"></textarea>
+    </div>
+  </fieldset>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="reset">
+        <input type="button" onclick="click()" value="click me">
+        <button>
+            <img src="aa"
+        </button>
+
+        <script>
+            function click() {
+                alert("I have been clicked");
+            }
+        </script>
+        <iframe name="cgi-results" frameborder="1"></iframe>
+</form>
+    
+</body>
+</html>
