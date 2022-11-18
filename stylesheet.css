@@ -1,0 +1,177 @@
+
+@media only screen and (min-width: 769px) {
+
+	html {
+		background-color: black;
+		background: linear-gradient(to left, rgb(252, 189, 223) 35%, rgb(29, 39, 87) 50%, rgb(39, 23, 185) 65%);
+	}
+	
+	}
+	
+body, .body2 {
+	margin: 0px auto auto auto;
+	width: 90%;
+	position: center;	
+	background-color: lightgray;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	text-align: wrap;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+header{
+text-align:center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+
+.column {
+	float: left;
+	width: 25%;
+	padding: 10px;
+  }
+
+.column2{
+float:left;
+width:25%;
+padding:10px;
+bottom:-1000px;
+}
+  
+
+  .column img {
+	opacity: 0.8;
+	cursor: pointer;
+	width:10%;
+  }
+  
+  .column img:hover {
+	opacity: 2;
+  }
+  
+
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  
+  .container {
+	position: relative;
+	display: none;
+  }
+  
+
+  #imgtext {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: white;
+	font-size: 20px;
+  }
+  
+ 
+  .closebtn {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	color: white;
+	font-size: 35px;
+	cursor: pointer;
+  }
+
+
+
+img {
+max-width:40%;
+float:left;
+}
+
+
+nav ul li a:visited {
+	color: white;
+}
+
+
+nav ul li a:hover {
+	color: purple;
+	background-color: black;
+}
+
+nav ul li a:active {
+	color:green;
+}
+
+ul {
+border: 1px;
+background-color:rgb(82, 67, 67);
+text-decoration:none;
+text-align:center;
+}
+
+	
+aside {
+	display: none;
+}
+
+
+h1,h4{
+	font-size: 3.7em;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	float:center;
+	padding-left:40%;
+}
+
+h2 {
+	font-size: 3.1em;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align:left;
+}
+
+
+body > img {
+	width: 40%;
+
+}
+
+footer {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align: center;
+	font-size: 0.7em;
+	border-top: 2px solid #73DF6B;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+@media only screen and (min-width: 601px) {
+
+body {
+	min-height: 100%;
+}
+
+
+aside {
+	display: block;
+	float: left;
+	width: 250px;
+	background-color: rgb(217, 217, 236);
+	margin-top: -30px;
+}
+
+}
+
+.body2 {
+text-align:left;
+position:absolute;
+bottom:-1680px;
+}
