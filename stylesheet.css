@@ -8,40 +8,17 @@
 	
 	}
 	
-body,.body2,.body3 {
+body{
 	margin: auto auto auto auto;
 	width: 95%;
 	position: relative;	
-	background-color: lightgray;
+	background-color: rgb(206, 202, 202);
 	border-top: 2px solid black;
 	border-left: 2px solid black;
 	border-right: 2px solid black;
 	border-bottom: 2px solid black;
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	
-}
-
-.body2{
-	position:relative;
-	top:1300px;
-	width:100%;
-	}
-.body3{
-position:relative;
-top:600px;
-width:100%;
-}
-
-.body4{
-	margin-left:auto auto auto auto;
-	position: relative;	
-	background-color: lightgray;
-	border-top: 2px solid black;
-	border-left: 2px solid black;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
-position:relative;
-top:700px;
 }
 
 
@@ -51,51 +28,29 @@ text-align:center;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 3em;
 text-shadow:2px 2px white;
-text-decoration:underline;
+text-decoration:none;
 text-decoration-color:black;
-	background-color: rgb(240, 215, 215);
+	background-color: rgb(250, 242, 242);
 	animation-name: lorem-ipsum;
 	animation-duration: 8s;
 	animation-iteration-count: infinite;
 }
   
 @keyframes lorem-ipsum {
-		0%   {background-color:rgb(245, 150, 213); left:0px; top:0px;}
-		25%  {background-color:rgb(252, 252, 140); left:200px; top:0px;}
-		50%  {background-color:rgb(173, 173, 250); left:200px; top:200px;}
+		0%   {background-color:rgb(221, 15, 152); left:0px; top:0px;}
+		25%  {background-color:rgb(23, 11, 196); left:200px; top:0px;}
+		50%  {background-color:rgb(3, 148, 27); left:200px; top:200px;}
 		75%  {background-color:rgb(156, 210, 247); left:0px; top:200px;}
-		100% {background-color:rgb(213, 248, 147); left:0px; top:0px;}
+		100% {background-color:rgb(231, 16, 16); left:0px; top:0px;}
 	
   }
 
 
-
-
-.althead{
-position:relative;
-top:100px;
-right:100px;
-}
-
-.althead1{
-
-position:relative;
-top:430px;
-right:200px;
-font-size:0.5em;
-}
-
-.althead2{
-position:relative;
-bottom:330px;
-right:270px;
-}
-
 .forms{
 position:relative;
-bottom:100px;
+bottom:5px;
 left:250px;
-width:30%;
+width:60%;
 text-align:center;
 }
 
@@ -164,22 +119,28 @@ max-width:40%;
 float:left;
 }
 
-nav ul li {
+nav ul li  {
 	display:inline-block;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size:2em;
 	padding-right:30px;
 	margin-right:20px;
 	text-align:center;
+	color:rgb(15, 6, 6);
 }
 
+a{
+color:rgb(12, 5, 12);
+}
+
+
 nav ul li a:visited {
-	color: white;
+	color: rgb(17, 12, 12);
 }
 
 
 nav ul li a:hover {
-	color: purple;
+	color: white;
 	background-color: black;
 }
 
@@ -189,7 +150,7 @@ nav ul li a:active {
 
 ul {
 border: 1px;
-background-color:rgb(82, 67, 67);
+background-color:rgb(221, 213, 211);
 text-decoration:none;
 text-align:center;
 }
@@ -208,7 +169,7 @@ h1,h4{
 }
 
 h2 {
-	font-size: 3.1em;
+	font-size: 2.5em;
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	text-align:left;
 }
@@ -257,15 +218,6 @@ body {
 	position:relative;
 }
 
-
-aside {
-	display: block;
-	float: left;
-	width: 250px;
-	background-color: rgb(217, 217, 236);
-	margin-top: -30px;
-}
-
 }
 
 .body2 {
@@ -292,8 +244,9 @@ bottom:300px;
 
 tbody{
 position:relative;
-bottom:1630px;
-left:1130px;
+left:1120px;
+bottom:400px;
+margin:0 auto;
 }
 table.schedule tr td:nth-child(1)  {
     text-align: right;
@@ -319,4 +272,25 @@ dl div{
 }
 article{
     column-count: 3;
+}
+
+.offer{
+color:blue !important;
+text-align:center;
+}
+
+.update{
+font-size:2em;
+position:relative;
+top:200px;
+}
+
+.caption{
+position:absolute;
+right:400px;
+}
+
+.effiel3{
+position: relative;
+bottom:800px;
 }

@@ -1,0 +1,84 @@
+@media only screen and (min-width: 769px) {
+
+	html {
+		background-color: black;
+		background: linear-gradient(to left, rgb(245, 68, 221) 35%, rgb(29, 39, 87) 50%, rgb(39, 23, 185) 65%);
+	}
+	
+	}
+	
+    body{
+        margin: 10px 10px 10px 10px;
+        width: 95%;
+        position: relative;	
+        background-color: rgb(206, 202, 202);
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        border-bottom: 2px solid black;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .column {
+        float: right;
+        width: 25%;
+        padding: 10px;
+      }
+    
+  
+    
+      .column img {
+        opacity: 0.8;
+        cursor: pointer;
+       
+      }
+      
+      .column img:hover {
+        opacity: 2;
+      }
+      
+    
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      
+      .container {
+        position: relative;
+        display: none;
+      }
+      
+    
+      #imgtext {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        color: white;
+        font-size: 20px;
+      }
+      
+     
+      .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+      }
+
+      img{
+    float:left;
+      }
+
+      h1{
+    font-size:2em;
+    Text-align:Center;
+      }
+
+    h2{
+    font-size:2em;
+    text-align:center;
+    }
